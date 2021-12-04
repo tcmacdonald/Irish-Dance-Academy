@@ -60,8 +60,10 @@ footer {
     background-color: black;
     position: fixed;
     bottom: 0;
+    flex-wrap: wrap;
+    max-height: 200px;
+    background-color: #000000;
 }
-
 
 .lists { 
     flex: 0 0 75%;
@@ -90,3 +92,10 @@ a:hover { color: #fa6641;}
     color: #fa6641;
     font-style: italic;
 }
+.copyright { 
+    flex: 0 0 75%;
+    padding: 10px 0;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 250px;
+    color: #fa6641;
